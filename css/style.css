@@ -191,7 +191,9 @@ html {
 }
 
 /* ====== Header style ======= */
-
+.container {
+  overflow: hidden;
+}
 .header {
   background: url(/assets/mainbanner1.jpeg) no-repeat;
   animation: scale 20s;
@@ -505,7 +507,7 @@ ul li a:hover:before {
 #listing-container {
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: ali;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -1251,70 +1253,45 @@ ul li a:hover:before {
     background-size: cover;
   }
 
-  /* Neighborhood */
+  .listings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   #listing-container {
     border: none;
   }
   .sjcity {
-    width: 250px;
-    height: 250px;
-    margin: 5rem 59rem;
-  }
-  .listingsj-map p {
-    text-align: center;
-    width: 22%;
-    margin: 10rem 57rem;
+    width: 400px;
+    height: 400px;
   }
 
   .svcity {
-    width: 250px;
-    height: 250px;
-    margin: 5rem 50rem;
+    width: 400px;
+    height: 400px;
+    margin: 10rem;
   }
-
-  .listingsv-map p {
-    text-align: center;
-    width: 23%;
-    margin: 10rem 49rem;
-  }
-
   .listingsv-map button {
-    margin: 3rem 50rem;
-  }
-
-  /* listings */
-
-  .listings {
-    margin: 47px;
+    margin: 5rem 35rem;
   }
 
   .listing-sj img {
-    width: 200px;
-    height: 200px;
+    display: center;
+    width: 300px;
+    height: 300px;
   }
 
+  .listing-sj h1 {
+    margin-right: 7rem;
+  }
   .listing-sv img {
-    justify-content: center;
-    width: 200px;
-    height: 200px;
+    display: center;
+    width: 300px;
+    height: 300px;
   }
-  /* contact form */
-  .field {
-    width: 30rem;
-  }
-  .submit-btn {
-    width: 20rem;
-  }
-  /* footer */
-  .scroll-btn {
-    position: absolute;
-    right: 3rem;
-    bottom: 3rem;
-    width: 3rem;
-    height: 3rem;
-  }
-  .social-list i {
-    margin-top: 3rem;
+  .map-article {
+    text-align: center;
+    margin: 10rem;
   }
 }
