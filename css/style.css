@@ -15,6 +15,7 @@ html {
 
 .container {
   display: none;
+  overflow: hidden;
 }
 
 .display .container {
@@ -504,7 +505,7 @@ ul li a:hover:before {
 #listing-container {
   align-items: center;
   justify-content: center;
-  background-color: ali;
+  background-color: aliceblue;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -695,7 +696,7 @@ ul li a:hover:before {
 }
 
 .submit-btn {
-  width: 45rem;
+  width: 40rem;
   height: 5rem;
   background-color: rgb(72, 72, 245);
   color: aliceblue;
@@ -740,12 +741,6 @@ ul li a:hover:before {
   margin: 0 2rem;
 }
 
-.social-list i {
-  font-size: 2rem;
-  color: #c3bdbd;
-  justify-content: space-between;
-}
-
 .scroll-btn {
   position: absolute;
   right: 5rem;
@@ -764,7 +759,7 @@ ul li a:hover:before {
 
 .social-list i {
   background-color: rgb(171, 161, 161);
-
+  background-color: #2e2e2e;
   color: rgb(72, 72, 245);
 }
 /* ======x  Footer Section  x======= */
@@ -785,9 +780,20 @@ ul li a:hover:before {
     font-size: 3rem;
   }
 
+  /* listings */
+
   .listings {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    gap: 10rem;
+  }
+
+  .listing-sj img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .listing-sv img {
+    width: 500px;
+    height: 500px;
   }
 }
 
@@ -795,17 +801,34 @@ ul li a:hover:before {
   .brand {
     font-size: 2rem;
   }
+  .banner h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .banner p {
+    font-size: 2.5rem;
+    line-height: rem;
+  }
+
+  /* listings */
 
   .listings {
-    width: 75%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 10rem;
-    gap: 5%;
+    margin: 0;
+  }
+
+  .listing-sj img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .listing-sv img {
+    width: 350px;
+    height: 350px;
   }
 
   .maps {
-    width: 75%;
+    width: 70%;
   }
 
   .contact-wrapper {
@@ -819,6 +842,16 @@ ul li a:hover:before {
 
   .field {
     margin: 2rem 0;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .social-list i {
+    margin-top: 3rem;
   }
 }
 
@@ -889,57 +922,10 @@ ul li a:hover:before {
   .social-list i {
     font-size: 1.6rem;
   }
-}
-
-@media (max-width: 770px) {
-  .brand {
-    font-size: 1.6rem;
-    margin-left: 1rem;
-  }
-
-  .banner h1 {
-    font-size: 4rem;
-    line-height: 5rem;
-  }
-
-  .banner p {
-    font-size: 1.6rem;
-  }
-
-  .banner button {
-    width: 20rem;
-    font-size: 2rem;
-  }
-
-  .section-heading {
-    font-size: 3rem;
-  }
-
   .listings {
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin: 30px;
   }
 
-  .contact-heading {
-    font-size: 4rem;
-  }
-
-  .field {
-    width: 35rem;
-    margin: 3.5rem 0;
-  }
-
-  .input-group textarea {
-    max-width: 35rem;
-    height: 40rem;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 50%;
-  }
   .listing-sj img {
     display: center;
     width: 300px;
@@ -950,6 +936,262 @@ ul li a:hover:before {
     display: center;
     width: 300px;
     height: 300px;
+  }
+}
+@media (max-width: 860px) {
+  /*Listing*/
+
+  .listing-sj h1 {
+    margin-right: 8rem;
+  }
+
+  .listing-sj img {
+    margin-left: 14rem;
+    margin-right: 20rem;
+  }
+
+  .listing-sv h1 {
+    margin-right: 9rem;
+  }
+
+  .listing-sv img {
+    margin-right: 8rem;
+  }
+
+  /* Neighborhood */
+
+  #listing-container {
+    border: none;
+  }
+  .sjcity {
+    width: 500px;
+    height: 500px;
+    margin: 5rem 55rem;
+  }
+  .listingsj-map button {
+    margin: 3rem 55rem;
+  }
+  .listingsj-map p {
+    text-align: center;
+    width: 30%;
+    margin: 10rem 55rem;
+  }
+
+  .listingsj-map button {
+    margin: 3rem 65rem;
+  }
+  .map-article {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 45%;
+  }
+
+  .svcity {
+    width: 500px;
+    height: 500px;
+    margin: 5rem 55rem;
+  }
+
+  .listingsj-map {
+    display: center;
+    align-items: center;
+  }
+
+  .listingsv-map p {
+    text-align: center;
+    width: 30%;
+    margin: 10rem 55rem;
+  }
+
+  .listingsv-map button {
+    margin: 3rem 65rem;
+  }
+  /*Listing*/
+
+  .listing-sj img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .listing-sv img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 770px) {
+  .brand {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .banner p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .banner button {
+    margin-top: 0;
+    margin-bottom: 6rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+  }
+  /* Navbar */
+  .hamburger-menu {
+    top: 3rem;
+    right: 3rem;
+  }
+
+  .change .hamburger-menu {
+    right: 20rem;
+  }
+
+  .navbar {
+    width: 30%;
+    right: -30%;
+  }
+  .nav-item {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .airbnb-link i {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  .line {
+    width: 60%;
+    height: 0.3rem;
+  }
+
+  .change .line-1 {
+    transform: rotate(45deg) translate(0.4rem, 1.4rem);
+  }
+  .change .line-3 {
+    transform: rotate(-45deg) translate(0.4rem, -1.4rem);
+  }
+
+  .header {
+    background-position: center;
+    background-size: cover;
+  }
+
+  /*Listing*/
+
+  .listing-sj h1 {
+    margin-right: 12rem;
+  }
+
+  .listing-sj img {
+    display: center;
+    margin-left: 10rem;
+    margin-right: 20rem;
+    width: 400px;
+    height: 400px;
+  }
+
+  .listing-sv h1 {
+    margin-right: 12rem;
+  }
+
+  .listing-sv img {
+    margin-left: 10rem;
+    margin-right: 20rem;
+    display: center;
+    width: 400px;
+    height: 400px;
+  }
+
+  /* Neighborhood */
+
+  #listing-container {
+    border: none;
+  }
+  .sjcity {
+    width: 400px;
+    height: 400px;
+    margin: 5rem 55rem;
+  }
+  .listingsj-map button {
+    margin: 3rem 60rem;
+  }
+  .listingsj-map p {
+    text-align: center;
+    width: 30%;
+    margin: 10rem 52rem;
+  }
+
+  .map-article {
+    font-size: 1.4rem;
+    text-align: center;
+
+    width: 45%;
+  }
+
+  .svcity {
+    width: 400px;
+    height: 400px;
+    margin: 5rem 50rem;
+  }
+
+  .listingsv-map p {
+    text-align: center;
+    width: 30%;
+    margin: 10rem 48rem;
+  }
+
+  .listingsv-map button {
+    margin: 3rem 55rem;
+  }
+
+  .listings {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  /* contact form*/
+
+  .field {
+    width: 35rem;
+    height: 10rem;
+  }
+  .submit-btn {
+    width: 20rem;
+    height: 3rem;
+  }
+  .contact-heading {
+    font-size: 4rem;
+  }
+
+  .input-group textarea {
+    max-width: 35rem;
+    height: 40rem;
+  }
+  /* footer */
+  .scroll-btn {
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .social-list i {
+    margin-top: 3rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
   }
 }
 
@@ -959,20 +1201,49 @@ ul li a:hover:before {
   }
 
   .brand {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
   }
 
   .banner h1 {
-    font-size: 6rem;
+    font-size: 3.4rem;
   }
 
   .banner p {
-    font-size: 3rem;
+    font-size: 1.8rem;
+  }
+  .banner button {
+    width: 15rem;
+  }
+  .hamburger-menu {
+    width: 2rem;
+    height: 2rem;
+    top: 1.6rem;
+    right: 2rem;
+  }
+
+  /* Navbar */
+  .change .hamburger-menu {
+    right: 20rem;
   }
 
   .navbar {
-    width: 100%;
-    right: -100%;
+    width: 50%;
+    right: -50%;
+  }
+  .nav-item {
+    font-size: 2.2rem;
+    line-height: 5rem;
+  }
+  .airbnb-link i {
+    font-size: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  .change .line-1 {
+    transform: rotate(45deg) translate(0.1rem, 0.7rem);
+  }
+  .change .line-3 {
+    transform: rotate(-45deg) translate(0.1rem, -0.7rem);
   }
 
   .header {
@@ -980,36 +1251,70 @@ ul li a:hover:before {
     background-size: cover;
   }
 
-  .listings {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  /* Neighborhood */
 
+  #listing-container {
+    border: none;
+  }
   .sjcity {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
+    margin: 5rem 59rem;
+  }
+  .listingsj-map p {
+    text-align: center;
+    width: 22%;
+    margin: 10rem 57rem;
   }
 
   .svcity {
-    width: 400px;
-    height: 400px;
-    margin: 10rem;
+    width: 250px;
+    height: 250px;
+    margin: 5rem 50rem;
+  }
+
+  .listingsv-map p {
+    text-align: center;
+    width: 23%;
+    margin: 10rem 49rem;
+  }
+
+  .listingsv-map button {
+    margin: 3rem 50rem;
+  }
+
+  /* listings */
+
+  .listings {
+    margin: 47px;
   }
 
   .listing-sj img {
-    display: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   .listing-sv img {
-    display: center;
-    width: 300px;
-    height: 300px;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
   }
-  .map-article {
-    text-align: center;
-    margin: 10rem;
+  /* contact form */
+  .field {
+    width: 30rem;
+  }
+  .submit-btn {
+    width: 20rem;
+  }
+  /* footer */
+  .scroll-btn {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .social-list i {
+    margin-top: 3rem;
   }
 }
