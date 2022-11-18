@@ -1012,4 +1012,7 @@ ul li a:hover:before {
     text-align: center;
     margin: 10rem;
   }
+  .submit-btn {
+    width: 15rem;
+  }
 }
