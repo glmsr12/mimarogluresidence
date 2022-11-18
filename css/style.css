@@ -1282,17 +1282,33 @@ ul li a:hover:before {
     border: none;
   }
   .sjcity {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+  }
+  .listingsj-map p {
+    text-align: center;
+    font-size: 2rem;
+    width: 23%;
+    margin: 10rem 58rem;
+  }
+  .listingsj-map button {
+    margin-left: 62rem;
   }
 
   .svcity {
-    width: 400px;
-    height: 400px;
-    margin: 10rem;
+    width: 350px;
+    height: 350px;
+    margin: 5rem 50rem;
+  }
+
+  .listingsv-map p {
+    text-align: center;
+    font-size: 2rem;
+    width: 22%;
+    margin: 10rem 54rem;
   }
   .listingsv-map button {
-    margin: 5rem 35rem;
+    margin-left: 57rem;
   }
 
   .map-article {
