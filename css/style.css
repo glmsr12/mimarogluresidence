@@ -507,7 +507,7 @@ ul li a:hover:before {
 #listing-container {
   align-items: center;
   justify-content: center;
-  background-color: ali;
+  background-color: aliceblue;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -1161,6 +1161,10 @@ ul li a:hover:before {
   }
   /* contact form*/
 
+  .contact-wrapper {
+    width: 65%;
+  }
+
   .field {
     width: 35rem;
     height: 10rem;
@@ -1194,6 +1198,19 @@ ul li a:hover:before {
     align-items: center;
     text-align: center;
     width: 50%;
+  }
+}
+
+@media (max-width: 580px) {
+  /* contact form*/
+  .contact {
+    margin-bottom: 10rem;
+  }
+  .contact-wrapper {
+    width: 90%;
+  }
+  .field {
+    width: 30rem;
   }
 }
 
@@ -1253,6 +1270,8 @@ ul li a:hover:before {
     background-size: cover;
   }
 
+  /*neighborhoods*/
+
   .listings {
     display: flex;
     align-items: center;
@@ -1276,6 +1295,12 @@ ul li a:hover:before {
     margin: 5rem 35rem;
   }
 
+  .map-article {
+    text-align: center;
+    margin: 10rem;
+  }
+  /*listings*/
+
   .listing-sj img {
     display: center;
     width: 300px;
@@ -1290,8 +1315,80 @@ ul li a:hover:before {
     width: 300px;
     height: 300px;
   }
-  .map-article {
+}
+@media (max-width: 360px) {
+  .listing-sj img {
+    display: center;
+    width: 200px;
+    height: 200px;
+    margin-right: 23rem;
+  }
+
+  .listing-sj h1 {
+    margin-right: 13rem;
+  }
+  .listing-sv img {
+    display: center;
+    width: 200px;
+    height: 200px;
+    margin-right: 23rem;
+  }
+  .listing-sv h1 {
+    margin-right: 13rem;
+  }
+
+  /* Neighborhoods */
+  .sjcity {
+    width: 250px;
+    height: 250px;
+    margin: 5rem 60rem;
+  }
+  .listingsj-map button {
+    margin: 3rem 60rem;
+  }
+  .listingsj-map p {
     text-align: center;
-    margin: 10rem;
+    width: 20%;
+    margin: 10rem 59rem;
+  }
+
+  .map-article {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 45%;
+  }
+
+  .svcity {
+    width: 250px;
+    height: 250px;
+    margin: 5rem 50rem;
+  }
+
+  .listingsv-map p {
+    text-align: center;
+    width: 22%;
+    margin: 10rem 50rem;
+  }
+  .listingsv-map button {
+    margin-left: 52rem;
+  }
+
+  /* contact form */
+
+  .contact-wrapper {
+    width: 80%;
+  }
+
+  .contact-heading {
+    font-size: 3rem;
+  }
+
+  .field {
+    width: 20rem;
+  }
+
+  .scroll-btn {
+    width: 3rem;
+    height: 3rem;
   }
 }
