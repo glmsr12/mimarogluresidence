@@ -7,7 +7,6 @@
   list-style: none;
   text-decoration: none;
   position: relative;
-  overflow: hidden;
 }
 
 html {
@@ -191,7 +190,9 @@ html {
 }
 
 /* ====== Header style ======= */
-
+.container {
+  overflow: hidden;
+}
 .header {
   background: url(/assets/mainbanner1.jpeg) no-repeat;
   animation: scale 20s;
