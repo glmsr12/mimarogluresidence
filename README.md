@@ -15,8 +15,9 @@ This is my first freelance project. I created a simple one page website to adver
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+
+![mimarogluresidence](https://user-images.githubusercontent.com/91402082/209490709-674bb705-950e-4553-872d-1f55c6c53ed5.png)
 
 
 ## 🔗 Links
